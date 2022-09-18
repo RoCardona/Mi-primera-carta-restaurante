@@ -5,97 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Home engloba toda la página -->
- <div class="contact">
-    <!-- container-página inicial  -->
+<div class="contact">
     <div class="container1">
-      <div class="initial1">
-          <a href="index.html" style="text-decoration: none">HOME</a>
-          <a href="carta.html" style="text-decoration: none">CARTA</a>  
-      <div class="initial2">
-        <a href="contact2.html" style="text-decoration: none">RESERVA</a>
-        <a href="contact2.html" style="text-decoration: none">CONTACTO</a>
-      </div>
-      </div>
-      </div>
-
-<div class="container2">
-      <img src="img/log.ok.png" class="img-fluid" alt="logo restaurante">
-    </div>
-    <div class="experience">
-      <div class="expert">
-      <p>Comparte tu experiencia con nosotros:</p>
-      <div>
-      </div>
-        <img src="img/comparte1.jpg" class="rounded float-end altura2" alt="experiencia">
-        <img src="img/comparte4.jpg" class="rounded float-end altura2" alt="experiencia">
-        <img src="img/comparte3.jpg" class="rounded float-end altura2" alt="experiencia">
-        <img src="img/comparte2.jpg" class="rounded float-end altura2" alt="experiencia">
-    </div>
-  </div>
-
-    <div class="formulario1">
-        <form action="/formulario" method="post">
-          <div class="form">
-            <h1>Contacto</h1>
-            <div class="grupo">
-              <input type="text" name="" id=""><span class="barra"></span>
-              <label>Nombre</label>
-            </div>
-            <div class="grupo">
-              <input type="email" name="" id=""><span class="barra"></span>
-              <label>Email</label>
-            </div>
-            <div class="grupo">
-              <input type="telefono" name="" id=""><span class="barra"></span>
-              <label>Teléfono</label>
-            </div>
-            <div class="grupo">
-              <textarea name="formul" id=""cols="" rows="3"></textarea><span class="barra"></span>
-              <label>Mensaje</label>
-            </div>
-            <button type="submit">Enviar</button>
-          </div>
-        </form>
-      </div>
-
-        <div class="container-map">
-            <div class="maps">
-              <p>Nos encontraras aquí:</p>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.227452821828!2d-0.18513254842218016!3d38.96447405049108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd61e84bccd57d15%3A0x87c5946358d057c0!2sPl.%20del%20Prado%2C%2046702%20Gand%C3%ADa%2C%20Valencia!5e0!3m2!1ses!2ses!4v1663436524443!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+        <div class="initial1">
+            <a href="index.html" style="text-decoration: none">HOME</a>
+            <a href="carta.html" style="text-decoration: none">CARTA</a>  
+        <div class="initial2">
+          <a href="contact2.html" style="text-decoration: none">RESERVA</a>
+          <a href="contact2.html" style="text-decoration: none">CONTACTO</a>
         </div>
+        </div>
+        </div>
+  <!-- logo para contact -->
+  <div class="container-cont">
+        <img src="img/log.ok.png" class="img-fluid" alt="logo restaurante">
+      </div>
+<!-- experiencias -->
+<div clas="comentario">
+    <h3>Algunas experiencias SiliaFood: </h3>
+  </div>
+<div class="experience">
+    <img src="img/comparte1.jpg" class="rounded float-start altur" alt="experience">
+    <img src="img/comparte4.jpg" class="rounded mx-auto d-block altur" alt="experience">
+</div>
 
-      </div class="contact-pie"> 
-      <nav class="navbar bg-light">
-          <div class="container">
-              <p>Síguemos en SiliaFood</p>
-            <a class="navbar-brand" href="https://www.facebook.com">
-              <img src="img/facebook.png" alt="Bootstrap" width="30" height="24">
-            </a>
-            <a class="navbar-brand" href="https://twitter.com">
-              <img src="img/twiter.png" alt="Bootstrap" width="30" height="24">
-            </a>
-            <a class="navbar-brand" href="https://www.instagram.com">
-              <img src="img/instagram.png" alt="Bootstrap" width="30" height="24">
-            </a>
-            <a class="navbar-brand" href="https://www.whatsapp.com/?lang=es">
-              <img src="img/whatsapp.png" alt="Bootstrap" width="30" height="24">
-              
-            </a>
-            <p>675675675</p>
-          </div>
-        </nav>
-      </div> 
-
-
-  
+      <!-- cuentanos tu experiencia o tus comentarios -->
+      <div clas="comentario">
+        <h3>Cuéntanos tu experiencia, envianos tus sugerencias o si tienes alguna pregunta, estaremos encantados de atenderte: </h3>
+      </div>
+      <div class="formulario">
+      <div class="form-floating mb-3">
+        <input type="nombre" class="form-control" id="floatingInput" placeholder="name">
+        <label for="floatingInput">Nombre</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="rosana@hexemple.com">
+        <label for="floatingInput">Email</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="telefono" class="form-control" id="floatingInput" placeholder="999999999">
+        <label for="floatingInput">Teléfono</label>
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Mensaje</label>
+        <button class="btn btn-secondary" type="submit">Enviar</button>
+      </div>
     </div>
 
+<div clas="maps">
+ <div class="google">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.2274528218336!2d-0.18513254842220558!3d38.96447405049095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd61e84bccd57d15%3A0x87c5946358d057c0!2sPl.%20del%20Prado%2C%2046702%20Gand%C3%ADa%2C%20Valencia!5e0!3m2!1ses!2ses!4v1663508326258!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
 </body>

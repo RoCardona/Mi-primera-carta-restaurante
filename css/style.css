@@ -29,12 +29,13 @@
 .container2{
     display: flex;
     justify-content: center;
+    font-family: Georgia;
+    font-size: 3em;
  }
 /* cuerpo de home */
 
 .altura {
-    height: 25em;
-    
+    height: 25em; 
 }
 .cook-title{
     margin: 1em;
